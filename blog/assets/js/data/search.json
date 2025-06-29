@@ -2,10 +2,18 @@
   {
     "title": "테스트 포스트 - Utterances 댓글 확인용",
     "url": "/blog/posts/test-post/",
-    "categories": "test",
-    "tags": "utterances, test",
+    "categories": "블로그, 테스트",
+    "tags": "utterances, 댓글, 테스트",
     "date": "2025-06-29 23:00:00 +0900",
     "content": "안녕하세요! 이 글은 Chirpy 테마에서 Utterances 댓글 기능이 잘 작동하는지 확인하기 위한 테스트용 포스트입니다.  댓글 달아 주세요! 😊"
+  },
+  {
+    "title": "Simple Test Post",
+    "url": "/blog/posts/simple-test/",
+    "categories": "test",
+    "tags": "test",
+    "date": "2025-06-27 10:00:00 +0900",
+    "content": "This is a simple test post."
   }
   
 ]
