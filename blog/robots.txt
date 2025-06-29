@@ -1,5 +1,0 @@
-User-agent: *
-
-Disallow: /norobots/
-
-Sitemap: https://eunseo0117.github.io/blog/sitemap.xml
