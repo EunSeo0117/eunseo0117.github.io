@@ -2,4 +2,4 @@ User-agent: *
 
 Disallow: /norobots/
 
-Sitemap: eunseo0117.github.io/blog/sitemap.xml
+Sitemap: https://eunseo0117.github.io/blog/sitemap.xml
