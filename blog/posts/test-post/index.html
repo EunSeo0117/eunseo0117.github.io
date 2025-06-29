@@ -30,23 +30,24 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="은서의 블로그" />
+<meta property="og:title" content="테스트 포스트 - Utterances 댓글 확인용" />
 <meta property="og:locale" content="kr" />
-<meta name="description" content="A minimal, responsive and feature-rich Jekyll theme for technical writing." />
-<meta property="og:description" content="A minimal, responsive and feature-rich Jekyll theme for technical writing." />
-<link rel="canonical" href="eunseo0117.github.io/blog/" />
-<meta property="og:url" content="eunseo0117.github.io/blog/" />
+<meta name="description" content="안녕하세요! 이 글은 Chirpy 테마에서 Utterances 댓글 기능이 잘 작동하는지 확인하기 위한 테스트용 포스트입니다." />
+<meta property="og:description" content="안녕하세요! 이 글은 Chirpy 테마에서 Utterances 댓글 기능이 잘 작동하는지 확인하기 위한 테스트용 포스트입니다." />
+<link rel="canonical" href="eunseo0117.github.io/blog/posts/test-post/" />
+<meta property="og:url" content="eunseo0117.github.io/blog/posts/test-post/" />
 <meta property="og:site_name" content="은서의 블로그" />
-<meta property="og:type" content="website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-06-29T23:00:00+09:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="은서의 블로그" />
+<meta property="twitter:title" content="테스트 포스트 - Utterances 댓글 확인용" />
 <meta name="twitter:site" content="@twitter_username" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"A minimal, responsive and feature-rich Jekyll theme for technical writing.","headline":"은서의 블로그","name":"your_full_name","sameAs":["https://twitter.com/username","https://github.com/username"],"url":"eunseo0117.github.io/blog/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-29T23:37:50+09:00","datePublished":"2025-06-29T23:00:00+09:00","description":"안녕하세요! 이 글은 Chirpy 테마에서 Utterances 댓글 기능이 잘 작동하는지 확인하기 위한 테스트용 포스트입니다.","headline":"테스트 포스트 - Utterances 댓글 확인용","mainEntityOfPage":{"@type":"WebPage","@id":"eunseo0117.github.io/blog/posts/test-post/"},"url":"eunseo0117.github.io/blog/posts/test-post/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>은서의 블로그
+  <title>테스트 포스트 - Utterances 댓글 확인용 | 은서의 블로그
   </title>
 
   <!--
@@ -110,11 +111,16 @@
   <!-- 3rd-party Dependencies -->
 
   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.32.2/dist/tocbot.min.css">
+  
 
   
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.min.css">
   
 
+  
+    <!-- Image Popup -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/css/glightbox.min.css">
   
 
   <!-- Scripts -->
@@ -133,6 +139,9 @@
   
 
   
+    <!-- image lazy-loading & popup & clipboard -->
+    
+  
 
 
 
@@ -190,9 +199,23 @@
 
   
 
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
 
 
-  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js"></script>
 
 
 
@@ -200,11 +223,15 @@
 
 
 
-<script defer src="/blog/assets/js/dist/home.min.js"></script>
+<script defer src="/blog/assets/js/dist/post.min.js"></script>
 
 
 
 <!-- Pageviews -->
+
+  
+
+  
 
 
 
@@ -230,7 +257,7 @@
   <nav class="flex-column flex-grow-1 w-100 ps-0">
     <ul class="nav">
       <!-- home -->
-      <li class="nav-item active">
+      <li class="nav-item">
         <a href="/blog/" class="nav-link">
           <i class="fa-fw fas fa-home"></i>
           <span>HOME</span>
@@ -394,9 +421,23 @@
       
 
       
-        <!-- index page -->
-        <span>Home</span>
+        
+          
+            <span>
+              <a href="/blog/">Home</a>
+            </span>
 
+          
+        
+          
+        
+          
+            
+              <span>테스트 포스트 - Utterances 댓글 확인용</span>
+            
+
+          
+        
       
     </nav>
     <!-- endof #breadcrumb -->
@@ -406,7 +447,7 @@
     </button>
 
     <div id="topbar-title">
-      은서의 블로그
+      Post
     </div>
 
     <button type="button" id="search-trigger" class="btn btn-link" aria-label="Search">
@@ -504,40 +545,17 @@
 
 
 
-<!-- Get pinned posts on current page -->
 
+<article class="px-1" data-toc="false">
+  <header>
+    <h1 data-toc-skip>테스트 포스트 - Utterances 댓글 확인용</h1>
+    
 
-
-
-
-
-<!-- Get normal posts on current page -->
-
-
-
-
-
-<div id="post-list" class="flex-grow-1 px-xl-1">
-  
-    <article class="card-wrapper card">
-      <a href="/blog/posts/test-post/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-
-        <div class="col-md-12">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">테스트 포스트 - Utterances 댓글 확인용</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>안녕하세요! 이 글은 Chirpy 테마에서 Utterances 댓글 기능이 잘 작동하는지 확인하기 위한 테스트용 포스트입니다.  댓글 달아 주세요! 😊</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
+    <div class="post-meta text-muted">
+      <!-- published date -->
+      <span>
+        Posted
+        <!--
   Date format snippet
   See: ${JS_ROOT}/utils/locale-dateime.js
 -->
@@ -550,34 +568,197 @@
   data-ts="1751205600"
   data-df="ll"
   
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+  
 >
   Jun 29, 2025
 </time>
 
+      </span>
 
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      test
-                  </span>
-                
-              </div>
+      <!-- lastmod date -->
+      
+        <span>
+          Updated
+          <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
 
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
+
+
+
+<time
   
+  data-ts="1751207870"
+  data-df="ll"
+  
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+  
+>
+  Jun 29, 2025
+</time>
+
+        </span>
+      
+
+      
+
+      <div class="d-flex justify-content-between">
+        <!-- author(s) -->
+        <span>
+          
+
+          By
+
+          <em>
+            
+              <a href="https://twitter.com/username">your_full_name</a>
+            
+          </em>
+        </span>
+
+        <div>
+          <!-- pageviews -->
+          
+
+          <!-- read time -->
+          <!-- Calculate the post's reading time, and display the word count in tooltip -->
+
+
+
+<!-- words per minute -->
+
+
+
+
+
+
+
+
+
+
+<!-- return element -->
+<span
+  class="readtime"
+  data-bs-toggle="tooltip"
+  data-bs-placement="bottom"
+  title="52 words"
+>
+  <em>1 min</em> read</span>
+
+        </div>
+      </div>
+    </div>
+  </header>
+
+  
+
+  <div class="content">
+    <p>안녕하세요!<br />
+이 글은 Chirpy 테마에서 <strong>Utterances 댓글 기능</strong>이 잘 작동하는지 확인하기 위한 테스트용 포스트입니다.</p>
+
+<p>댓글 달아 주세요! 😊</p>
+
+  </div>
+
+  <div class="post-tail-wrapper text-muted">
+    <!-- categories -->
+    
+      <div class="post-meta mb-3">
+        <i class="far fa-folder-open fa-fw me-1"></i>
+        
+          <a href="/blog/categories/test/">test</a>
+      </div>
+    
+
+    <!-- tags -->
+    
+      <div class="post-tags">
+        <i class="fa fa-tags fa-fw me-1"></i>
+        
+          <a
+            href="/blog/tags/utterances/"
+            class="post-tag no-text-decoration"
+          >utterances</a>
+        
+          <a
+            href="/blog/tags/test/"
+            class="post-tag no-text-decoration"
+          >test</a>
+        
+      </div>
+    
+
+    <div
+      class="
+        post-tail-bottom
+        d-flex justify-content-between align-items-center mt-5 pb-2
+      "
+    >
+      <div class="license-wrapper">
+        
+          
+
+          This post is licensed under 
+        <a href="https://creativecommons.org/licenses/by/4.0/">
+          CC BY 4.0
+        </a>
+         by the author.
+        
+      </div>
+
+      <!-- Post sharing snippet -->
+
+<div class="share-wrapper d-flex align-items-center">
+  <span class="share-label text-muted">Share</span>
+  <span class="share-icons">
+    
+    
+    
+
+    
+
+      
+
+      <a href="https://twitter.com/intent/tweet?text=%ED%85%8C%EC%8A%A4%ED%8A%B8%20%ED%8F%AC%EC%8A%A4%ED%8A%B8%20-%20Utterances%20%EB%8C%93%EA%B8%80%20%ED%99%95%EC%9D%B8%EC%9A%A9%20-%20%EC%9D%80%EC%84%9C%EC%9D%98%20%EB%B8%94%EB%A1%9C%EA%B7%B8&url=eunseo0117.github.io%2Fblog%2Fposts%2Ftest-post%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+        <i class="fa-fw fa-brands fa-square-x-twitter"></i>
+      </a>
+    
+
+      
+
+      <a href="https://www.facebook.com/sharer/sharer.php?title=%ED%85%8C%EC%8A%A4%ED%8A%B8%20%ED%8F%AC%EC%8A%A4%ED%8A%B8%20-%20Utterances%20%EB%8C%93%EA%B8%80%20%ED%99%95%EC%9D%B8%EC%9A%A9%20-%20%EC%9D%80%EC%84%9C%EC%9D%98%20%EB%B8%94%EB%A1%9C%EA%B7%B8&u=eunseo0117.github.io%2Fblog%2Fposts%2Ftest-post%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+        <i class="fa-fw fab fa-facebook-square"></i>
+      </a>
+    
+
+      
+
+      <a href="https://t.me/share/url?url=eunseo0117.github.io%2Fblog%2Fposts%2Ftest-post%2F&text=%ED%85%8C%EC%8A%A4%ED%8A%B8%20%ED%8F%AC%EC%8A%A4%ED%8A%B8%20-%20Utterances%20%EB%8C%93%EA%B8%80%20%ED%99%95%EC%9D%B8%EC%9A%A9%20-%20%EC%9D%80%EC%84%9C%EC%9D%98%20%EB%B8%94%EB%A1%9C%EA%B7%B8" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+        <i class="fa-fw fab fa-telegram"></i>
+      </a>
+    
+
+    <button
+      id="copy-link"
+      aria-label="Copy link"
+      class="btn small"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      title="Copy link"
+      data-title-succeed="Link copied successfully!"
+    >
+      <i class="fa-fw fas fa-link pe-none fs-6"></i>
+    </button>
+  </span>
 </div>
-<!-- #post-list -->
 
-
+    </div>
+    <!-- .post-tail-bottom -->
+  </div>
+  <!-- div.post-tail-wrapper -->
+</article>
 
 
             
@@ -677,12 +858,84 @@
             </div>
 
             
+              
+              
+
+
+
+
+
+
+
+            
           </aside>
         </div>
 
         <div class="row">
           <!-- tail -->
           <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 px-md-4">
+            
+              
+              <!-- Recommend the other 3 posts according to the tags and categories of the current post. -->
+
+<!-- The total size of related posts -->
+
+
+<!-- An random integer that bigger than 0 -->
+
+
+<!-- Equals to TAG_SCORE / {max_categories_hierarchy} -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+            
+              
+              <!-- Navigation buttons at the bottom of the post. -->
+
+<nav class="post-navigation d-flex justify-content-between" aria-label="Post Navigation">
+  
+  
+
+  
+    <div class="btn btn-outline-primary disabled" aria-label="Older">
+      <p>-</p>
+    </div>
+  
+
+  
+    <div class="btn btn-outline-primary disabled" aria-label="Newer">
+      <p>-</p>
+    </div>
+  
+</nav>
+
             
 
             <!-- The Footer -->
@@ -831,6 +1084,47 @@
     
 
     <!-- Embedded scripts -->
+
+    
+      
+      <!-- The comments switcher -->
+
+  
+  <!-- https://utteranc.es/ -->
+<script>
+  (function () {
+    const origin = 'https://utteranc.es';
+    const themeMapper = Theme.getThemeMapper('github-light', 'github-dark');
+    const initTheme = themeMapper[Theme.visualState];
+
+    let script = document.createElement('script');
+    script.src = 'https://utteranc.es/client.js';
+    script.setAttribute('repo', 'EunSeo0117/blog-comments-repo');
+    script.setAttribute('issue-term', 'pathname');
+    script.setAttribute('theme', initTheme);
+    script.crossOrigin = 'anonymous';
+    script.async = true;
+
+    const $footer = document.querySelector('footer');
+    $footer.insertAdjacentElement('beforebegin', script);
+
+    addEventListener('message', (event) => {
+      let newTheme;if (event.source === window && event.data && event.data.id === Theme.ID) {
+        newTheme = themeMapper[Theme.visualState];
+
+        const message = {
+          type: 'set-theme',
+          theme: newTheme
+        };
+
+        const utterances = document.querySelector('.utterances-frame').contentWindow;
+        utterances.postMessage(message, origin);
+      }
+    });
+  })();
+</script>
+
+
 
     
 

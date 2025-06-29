@@ -4,7 +4,7 @@
   <id>eunseo0117.github.io/blog/</id>
   <title>은서의 블로그</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-06-29T03:44:47+09:00</updated>
+  <updated>2025-06-29T23:38:09+09:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>eunseo0117.github.io/blog/</uri>
@@ -17,6 +17,30 @@
   <icon>/blog/assets/img/favicons/favicon.ico</icon>
   <logo>/blog/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>테스트 포스트 - Utterances 댓글 확인용</title>
+    <link href="eunseo0117.github.io/blog/posts/test-post/" rel="alternate" type="text/html" title="테스트 포스트 - Utterances 댓글 확인용" />
+    <published>2025-06-29T23:00:00+09:00</published>
+  
+    <updated>2025-06-29T23:37:50+09:00</updated>
+  
+    <id>eunseo0117.github.io/blog/posts/test-post/</id>
+    <content type="text/html" src="eunseo0117.github.io/blog/posts/test-post/" />
+    <author>
+      <name>your_full_name</name>
+    </author>
+
+  
+    
+    <category term="test" />
+    
+  
+
+  <summary>안녕하세요! 이 글은 Chirpy 테마에서 Utterances 댓글 기능이 잘 작동하는지 확인하기 위한 테스트용 포스트입니다.  댓글 달아 주세요! 😊</summary>
+
+  </entry>
 
 </feed>
 
