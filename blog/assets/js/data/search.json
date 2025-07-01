@@ -1,5 +1,13 @@
 [
   {
+    "title": "커밋을 위한 수정테스트",
+    "url": "/blog/posts/second-test/",
+    "categories": "test",
+    "tags": "test",
+    "date": "2025-06-30 10:00:00 +0900",
+    "content": ""
+  },
+  {
     "title": "테스트 포스트 - Utterances 댓글 확인용",
     "url": "/blog/posts/test-post/",
     "categories": "블로그, 테스트",

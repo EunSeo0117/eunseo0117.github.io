@@ -4,7 +4,7 @@
   <id>https://eunseo0117.github.io/blog/</id>
   <title>은서의 블로그</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-06-30T04:26:50+09:00</updated>
+  <updated>2025-07-01T23:15:23+09:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>https://eunseo0117.github.io/blog/</uri>
@@ -17,6 +17,30 @@
   <icon>/blog/assets/img/favicons/favicon.ico</icon>
   <logo>/blog/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>커밋을 위한 수정테스트</title>
+    <link href="https://eunseo0117.github.io/blog/posts/second-test/" rel="alternate" type="text/html" title="커밋을 위한 수정테스트" />
+    <published>2025-06-30T10:00:00+09:00</published>
+  
+    <updated>2025-06-30T10:00:00+09:00</updated>
+  
+    <id>https://eunseo0117.github.io/blog/posts/second-test/</id>
+    <content type="text/html" src="https://eunseo0117.github.io/blog/posts/second-test/" />
+    <author>
+      <name>your_full_name</name>
+    </author>
+
+  
+    
+    <category term="test" />
+    
+  
+
+  <summary></summary>
+
+  </entry>
 
   
   <entry>
