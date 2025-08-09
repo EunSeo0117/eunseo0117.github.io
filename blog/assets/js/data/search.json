@@ -43,6 +43,15 @@
     "tags": "test",
     "date": "2025-06-25 10:00:00 +0900",
     "content": "말이 되니 씨발 몇시간을 소모했는데 "
+  },
+  
+  {
+    "title": "pg사 연동과정을 작성합니다.",
+    "url": "/blog/posts/payple/",
+    "categories": "payple",
+    "tags": "payple",
+    "date": "2025-06-23 10:00:00 +0900",
+    "content": " "
   }
   
 ]
