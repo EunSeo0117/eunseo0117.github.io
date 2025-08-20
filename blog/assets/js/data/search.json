@@ -52,6 +52,15 @@
     "tags": "payple",
     "date": "2025-06-23 10:00:00 +0900",
     "content": " "
+  },
+  
+  {
+    "title": "flyway마이그레이션 과정 작성",
+    "url": "/blog/posts/flyway/",
+    "categories": "flyway",
+    "tags": "flyway",
+    "date": "2025-06-23 10:00:00 +0900",
+    "content": " "
   }
   
 ]
