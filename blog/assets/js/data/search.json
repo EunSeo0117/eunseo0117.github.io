@@ -46,6 +46,15 @@
   },
   
   {
+    "title": "pg사 정기결제 연동",
+    "url": "/blog/posts/billing/",
+    "categories": "payple",
+    "tags": "payple",
+    "date": "2025-06-23 10:00:00 +0900",
+    "content": " "
+  },
+  
+  {
     "title": "pg사 연동과정을 작성합니다.",
     "url": "/blog/posts/payple/",
     "categories": "payple",
