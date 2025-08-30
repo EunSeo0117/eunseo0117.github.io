@@ -97,6 +97,15 @@
     "tags": "transction",
     "date": "2025-06-23 10:00:00 +0900",
     "content": "결제 및 구독 관련 동시성 문제를 해결하기 위해 lock을 이용한다 "
+  },
+  
+  {
+    "title": "aop 어노테이션 방식의 접근권한 관리",
+    "url": "/blog/posts/aop/",
+    "categories": "aop",
+    "tags": "aop",
+    "date": "2025-06-23 10:00:00 +0900",
+    "content": "aop방식으로 어노테이션을 추가하여 각 강의실의 접근방식을 제어하기 "
   }
   
 ]
