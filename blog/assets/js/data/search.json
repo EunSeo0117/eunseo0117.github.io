@@ -106,6 +106,15 @@
     "tags": "aop",
     "date": "2025-06-23 10:00:00 +0900",
     "content": "aop방식으로 어노테이션을 추가하여 각 강의실의 접근방식을 제어하기 "
+  },
+  
+  {
+    "title": "클린코드를 목표로한 리팩토링",
+    "url": "/blog/posts/clean-code/",
+    "categories": "cleanCode",
+    "tags": "cleanCode",
+    "date": "2025-06-23 10:00:00 +0900",
+    "content": "클린코드를 준수하며 개발했던걸 개선해보자. "
   }
   
 ]

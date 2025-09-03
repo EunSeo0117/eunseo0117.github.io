@@ -30,24 +30,24 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="은서의 블로그" />
+<meta property="og:title" content="클린코드를 목표로한 리팩토링" />
 <meta property="og:locale" content="kr" />
-<meta name="description" content="A minimal, responsive and feature-rich Jekyll theme for technical writing." />
-<meta property="og:description" content="A minimal, responsive and feature-rich Jekyll theme for technical writing." />
-<link rel="canonical" href="https://eunseo0117.github.io/blog/page2/" />
-<meta property="og:url" content="https://eunseo0117.github.io/blog/page2/" />
+<meta name="description" content="클린코드를 준수하며 개발했던걸 개선해보자." />
+<meta property="og:description" content="클린코드를 준수하며 개발했던걸 개선해보자." />
+<link rel="canonical" href="https://eunseo0117.github.io/blog/posts/clean-code/" />
+<meta property="og:url" content="https://eunseo0117.github.io/blog/posts/clean-code/" />
 <meta property="og:site_name" content="은서의 블로그" />
-<meta property="og:type" content="website" />
-<link rel="prev" href="https://eunseo0117.github.io/blog/" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-06-23T10:00:00+09:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="은서의 블로그" />
+<meta property="twitter:title" content="클린코드를 목표로한 리팩토링" />
 <meta name="twitter:site" content="@twitter_username" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"A minimal, responsive and feature-rich Jekyll theme for technical writing.","headline":"은서의 블로그","url":"https://eunseo0117.github.io/blog/page2/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-23T10:00:00+09:00","datePublished":"2025-06-23T10:00:00+09:00","description":"클린코드를 준수하며 개발했던걸 개선해보자.","headline":"클린코드를 목표로한 리팩토링","mainEntityOfPage":{"@type":"WebPage","@id":"https://eunseo0117.github.io/blog/posts/clean-code/"},"url":"https://eunseo0117.github.io/blog/posts/clean-code/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>은서의 블로그
+  <title>클린코드를 목표로한 리팩토링 | 은서의 블로그
   </title>
 
   <!--
@@ -111,11 +111,16 @@
   <!-- 3rd-party Dependencies -->
 
   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.32.2/dist/tocbot.min.css">
+  
 
   
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.min.css">
   
 
+  
+    <!-- Image Popup -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/css/glightbox.min.css">
   
 
   <!-- Scripts -->
@@ -134,6 +139,9 @@
   
 
   
+    <!-- image lazy-loading & popup & clipboard -->
+    
+  
 
 
 
@@ -191,9 +199,23 @@
 
   
 
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
 
 
-  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js"></script>
 
 
 
@@ -201,11 +223,15 @@
 
 
 
-<script defer src="/blog/assets/js/dist/home.min.js"></script>
+<script defer src="/blog/assets/js/dist/post.min.js"></script>
 
 
 
 <!-- Pageviews -->
+
+  
+
+  
 
 
 
@@ -231,7 +257,7 @@
   <nav class="flex-column flex-grow-1 w-100 ps-0">
     <ul class="nav">
       <!-- home -->
-      <li class="nav-item active">
+      <li class="nav-item">
         <a href="/blog/" class="nav-link">
           <i class="fa-fw fas fa-home"></i>
           <span>HOME</span>
@@ -395,9 +421,23 @@
       
 
       
-        <!-- index page -->
-        <span>Home</span>
+        
+          
+            <span>
+              <a href="/blog/">Home</a>
+            </span>
 
+          
+        
+          
+        
+          
+            
+              <span>클린코드를 목표로한 리팩토링</span>
+            
+
+          
+        
       
     </nav>
     <!-- endof #breadcrumb -->
@@ -407,7 +447,7 @@
     </button>
 
     <div id="topbar-title">
-      은서의 블로그
+      Post
     </div>
 
     <button type="button" id="search-trigger" class="btn btn-link" aria-label="Search">
@@ -505,40 +545,17 @@
 
 
 
-<!-- Get pinned posts on current page -->
 
+<article class="px-1" data-toc="false">
+  <header>
+    <h1 data-toc-skip>클린코드를 목표로한 리팩토링</h1>
+    
 
-
-
-
-
-<!-- Get normal posts on current page -->
-
-
-
-
-
-<div id="post-list" class="flex-grow-1 px-xl-1">
-  
-    <article class="card-wrapper card">
-      <a href="/blog/posts/transction/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-
-        <div class="col-md-12">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">동시성 문제 해결하기</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>결제 및 구독 관련 동시성 문제를 해결하기 위해 lock을 이용한다</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
+    <div class="post-meta text-muted">
+      <!-- published date -->
+      <span>
+        Posted
+        <!--
   Date format snippet
   See: ${JS_ROOT}/utils/locale-dateime.js
 -->
@@ -551,218 +568,166 @@
   data-ts="1750640400"
   data-df="ll"
   
->
-  Jun 23, 2025
-</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      transction
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
-  
-    <article class="card-wrapper card">
-      <a href="/blog/posts/aop/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-
-        <div class="col-md-12">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">aop 어노테이션 방식의 접근권한 관리</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>aop방식으로 어노테이션을 추가하여 각 강의실의 접근방식을 제어하기</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1750640400"
-  data-df="ll"
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
   Jun 23, 2025
 </time>
 
+      </span>
 
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      aop
-                  </span>
-                
-              </div>
+      <!-- lastmod date -->
+      
 
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
-  
-    <article class="card-wrapper card">
-      <a href="/blog/posts/clean-code/" class="post-preview row g-0 flex-md-row-reverse">
-        
+      
 
-        
+      <div class="d-flex justify-content-between">
+        <!-- author(s) -->
+        <span>
+          
 
-        <div class="col-md-12">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">클린코드를 목표로한 리팩토링</h1>
+          By
 
-            <div class="card-text content mt-0 mb-3">
-              <p>클린코드를 준수하며 개발했던걸 개선해보자.</p>
-            </div>
+          <em>
+            
+              <a href="https://twitter.com/username">your_full_name</a>
+            
+          </em>
+        </span>
 
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
+        <div>
+          <!-- pageviews -->
+          
+
+          <!-- read time -->
+          <!-- Calculate the post's reading time, and display the word count in tooltip -->
+
+
+
+<!-- words per minute -->
 
 
 
 
-<time
-  
-  data-ts="1750640400"
-  data-df="ll"
-  
+
+
+
+
+
+
+<!-- return element -->
+<span
+  class="readtime"
+  data-bs-toggle="tooltip"
+  data-bs-placement="bottom"
+  title="20 words"
 >
-  Jun 23, 2025
-</time>
+  <em>1 min</em> read</span>
 
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      cleanCode
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
         </div>
-      </a>
-    </article>
+      </div>
+    </div>
+  </header>
+
   
+
+  <div class="content">
+    <p>클린코드를 준수하며 개발했던걸 개선해보자.</p>
+
+  </div>
+
+  <div class="post-tail-wrapper text-muted">
+    <!-- categories -->
+    
+      <div class="post-meta mb-3">
+        <i class="far fa-folder-open fa-fw me-1"></i>
+        
+          <a href="/blog/categories/cleancode/">cleanCode</a>
+      </div>
+    
+
+    <!-- tags -->
+    
+      <div class="post-tags">
+        <i class="fa fa-tags fa-fw me-1"></i>
+        
+          <a
+            href="/blog/tags/cleancode/"
+            class="post-tag no-text-decoration"
+          >cleanCode</a>
+        
+      </div>
+    
+
+    <div
+      class="
+        post-tail-bottom
+        d-flex justify-content-between align-items-center mt-5 pb-2
+      "
+    >
+      <div class="license-wrapper">
+        
+          
+
+          This post is licensed under 
+        <a href="https://creativecommons.org/licenses/by/4.0/">
+          CC BY 4.0
+        </a>
+         by the author.
+        
+      </div>
+
+      <!-- Post sharing snippet -->
+
+<div class="share-wrapper d-flex align-items-center">
+  <span class="share-label text-muted">Share</span>
+  <span class="share-icons">
+    
+    
+    
+
+    
+
+      
+
+      <a href="https://twitter.com/intent/tweet?text=%ED%81%B4%EB%A6%B0%EC%BD%94%EB%93%9C%EB%A5%BC%20%EB%AA%A9%ED%91%9C%EB%A1%9C%ED%95%9C%20%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81%20-%20%EC%9D%80%EC%84%9C%EC%9D%98%20%EB%B8%94%EB%A1%9C%EA%B7%B8&url=https%3A%2F%2Feunseo0117.github.io%2Fblog%2Fposts%2Fclean-code%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+        <i class="fa-fw fa-brands fa-square-x-twitter"></i>
+      </a>
+    
+
+      
+
+      <a href="https://www.facebook.com/sharer/sharer.php?title=%ED%81%B4%EB%A6%B0%EC%BD%94%EB%93%9C%EB%A5%BC%20%EB%AA%A9%ED%91%9C%EB%A1%9C%ED%95%9C%20%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81%20-%20%EC%9D%80%EC%84%9C%EC%9D%98%20%EB%B8%94%EB%A1%9C%EA%B7%B8&u=https%3A%2F%2Feunseo0117.github.io%2Fblog%2Fposts%2Fclean-code%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+        <i class="fa-fw fab fa-facebook-square"></i>
+      </a>
+    
+
+      
+
+      <a href="https://t.me/share/url?url=https%3A%2F%2Feunseo0117.github.io%2Fblog%2Fposts%2Fclean-code%2F&text=%ED%81%B4%EB%A6%B0%EC%BD%94%EB%93%9C%EB%A5%BC%20%EB%AA%A9%ED%91%9C%EB%A1%9C%ED%95%9C%20%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81%20-%20%EC%9D%80%EC%84%9C%EC%9D%98%20%EB%B8%94%EB%A1%9C%EA%B7%B8" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+        <i class="fa-fw fab fa-telegram"></i>
+      </a>
+    
+
+    <button
+      id="copy-link"
+      aria-label="Copy link"
+      class="btn small"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      title="Copy link"
+      data-title-succeed="Link copied successfully!"
+    >
+      <i class="fa-fw fas fa-link pe-none fs-6"></i>
+    </button>
+  </span>
 </div>
-<!-- #post-list -->
 
-
-  <!-- The paginator for post list on HomgPage. -->
-
-<nav aria-label="Page Navigation">
-  <ul class="pagination align-items-center mt-4 mb-0">
-    <!-- left arrow -->
-    
-
-    <li class="page-item ">
-      <a class="page-link" href="/blog/" aria-label="previous-page">
-        <i class="fas fa-angle-left"></i>
-      </a>
-    </li>
-
-    <!-- page numbers -->
-    
-    
-
-    
-      
-      
-      
-      
-      
-
-      
-
-      
-        <!-- show number -->
-        <li class="page-item ">
-          <a
-            class="page-link"
-            href="/blog/"
-          >1</a>
-        </li>
-      
-    
-      
-      
-      
-      
-      
-
-      
-
-      
-        <!-- show number -->
-        <li class="page-item  active">
-          <a
-            class="page-link"
-            href="/blog/page2"
-          >2</a>
-        </li>
-      
-    
-
-    <!-- mobile pagination -->
-    <li class="page-index align-middle">
-      <span>2</span>
-      <span class="text-muted">/ 2</span>
-    </li>
-
-    <!-- right arrow -->
-    
-
-    <li class="page-item disabled">
-      <a class="page-link" href="#" aria-label="next-page">
-        <i class="fas fa-angle-right"></i>
-      </a>
-    </li>
-  </ul>
-</nav>
-<!-- .pagination -->
-
-
+    </div>
+    <!-- .post-tail-bottom -->
+  </div>
+  <!-- div.post-tail-wrapper -->
+</article>
 
 
             
@@ -1260,12 +1225,88 @@
             </div>
 
             
+              
+              
+
+
+
+
+
+
+
+            
           </aside>
         </div>
 
         <div class="row">
           <!-- tail -->
           <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 px-md-4">
+            
+              
+              <!-- Recommend the other 3 posts according to the tags and categories of the current post. -->
+
+<!-- The total size of related posts -->
+
+
+<!-- An random integer that bigger than 0 -->
+
+
+<!-- Equals to TAG_SCORE / {max_categories_hierarchy} -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+            
+              
+              <!-- Navigation buttons at the bottom of the post. -->
+
+<nav class="post-navigation d-flex justify-content-between" aria-label="Post Navigation">
+  
+  
+
+  
+    <div class="btn btn-outline-primary disabled" aria-label="Older">
+      <p>-</p>
+    </div>
+  
+
+  
+    <a
+      href="/blog/posts/aop/"
+      class="btn btn-outline-primary"
+      aria-label="Newer"
+    >
+      <p>aop 어노테이션 방식의 접근권한 관리</p>
+    </a>
+  
+</nav>
+
             
 
             <!-- The Footer -->
@@ -1784,6 +1825,47 @@
     
 
     <!-- Embedded scripts -->
+
+    
+      
+      <!-- The comments switcher -->
+
+  
+  <!-- https://utteranc.es/ -->
+<script>
+  (function () {
+    const origin = 'https://utteranc.es';
+    const themeMapper = Theme.getThemeMapper('github-light', 'github-dark');
+    const initTheme = themeMapper[Theme.visualState];
+
+    let script = document.createElement('script');
+    script.src = 'https://utteranc.es/client.js';
+    script.setAttribute('repo', 'EunSeo0117/blog-comments-repo');
+    script.setAttribute('issue-term', 'pathname');
+    script.setAttribute('theme', initTheme);
+    script.crossOrigin = 'anonymous';
+    script.async = true;
+
+    const $footer = document.querySelector('footer');
+    $footer.insertAdjacentElement('beforebegin', script);
+
+    addEventListener('message', (event) => {
+      let newTheme;if (event.source === window && event.data && event.data.id === Theme.ID) {
+        newTheme = themeMapper[Theme.visualState];
+
+        const message = {
+          type: 'set-theme',
+          theme: newTheme
+        };
+
+        const utterances = document.querySelector('.utterances-frame').contentWindow;
+        utterances.postMessage(message, origin);
+      }
+    });
+  })();
+</script>
+
+
 
     
 
