@@ -5,8 +5,17 @@
     "url": "/blog/posts/2025-05-10-gc/",
     "categories": "",
     "tags": "",
-    "date": "2025-09-24 13:46:54 +0900",
+    "date": "2025-09-25 23:56:13 +0900",
     "content": "gc에 대한 개념, jvm개념 공부 "
+  },
+  
+  {
+    "title": "데이터베이스 학습내용 정리",
+    "url": "/blog/posts/db/",
+    "categories": "database",
+    "tags": "database",
+    "date": "2025-08-03 10:00:00 +0900",
+    "content": "오늘은 auto increament 랑 unique제약조건 락, 동시성, 캐싱에 대해 배웠다. 전반적으로 데이터베이스에대한 이해도가 높아졌다 앱인토스 개발할때는 이것들을 고려해서 설게해봐야겠다. "
   },
   
   {

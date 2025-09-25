@@ -4,7 +4,7 @@
   <id>https://eunseo0117.github.io/blog/</id>
   <title>은서의 블로그</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-09-24T13:46:54+09:00</updated>
+  <updated>2025-09-25T23:56:13+09:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>https://eunseo0117.github.io/blog/</uri>
@@ -22,9 +22,9 @@
   <entry>
     <title></title>
     <link href="https://eunseo0117.github.io/blog/posts/2025-05-10-gc/" rel="alternate" type="text/html" title="" />
-    <published>2025-09-24T13:46:54+09:00</published>
+    <published>2025-09-25T23:56:13+09:00</published>
   
-    <updated>2025-09-24T13:46:54+09:00</updated>
+    <updated>2025-09-25T23:56:13+09:00</updated>
   
     <id>https://eunseo0117.github.io/blog/posts/2025-05-10-gc/</id>
     <content type="text/html" src="https://eunseo0117.github.io/blog/posts/2025-05-10-gc/" />
@@ -37,6 +37,30 @@
   
 
   <summary>gc에 대한 개념, jvm개념 공부</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>데이터베이스 학습내용 정리</title>
+    <link href="https://eunseo0117.github.io/blog/posts/db/" rel="alternate" type="text/html" title="데이터베이스 학습내용 정리" />
+    <published>2025-08-03T10:00:00+09:00</published>
+  
+    <updated>2025-08-03T10:00:00+09:00</updated>
+  
+    <id>https://eunseo0117.github.io/blog/posts/db/</id>
+    <content type="text/html" src="https://eunseo0117.github.io/blog/posts/db/" />
+    <author>
+      <name>your_full_name</name>
+    </author>
+
+  
+    
+    <category term="database" />
+    
+  
+
+  <summary>오늘은 auto increament 랑 unique제약조건 락, 동시성, 캐싱에 대해 배웠다. 전반적으로 데이터베이스에대한 이해도가 높아졌다 앱인토스 개발할때는 이것들을 고려해서 설게해봐야겠다.</summary>
 
   </entry>
 
@@ -109,32 +133,6 @@
   
 
   <summary></summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>테스트 포스트 - Utterances 댓글 확인용</title>
-    <link href="https://eunseo0117.github.io/blog/posts/test-post/" rel="alternate" type="text/html" title="테스트 포스트 - Utterances 댓글 확인용" />
-    <published>2025-06-29T23:00:00+09:00</published>
-  
-    <updated>2025-06-30T00:40:15+09:00</updated>
-  
-    <id>https://eunseo0117.github.io/blog/posts/test-post/</id>
-    <content type="text/html" src="https://eunseo0117.github.io/blog/posts/test-post/" />
-    <author>
-      <name>your_full_name</name>
-    </author>
-
-  
-    
-    <category term="블로그" />
-    
-    <category term="테스트" />
-    
-  
-
-  <summary>안녕하세요! 이 글은 Chirpy 테마에서 Utterances 댓글 기능이 잘 작동하는지 확인하기 위한 테스트용 포스트입니다.  댓글 달아 주세요! 😊</summary>
 
   </entry>
 
