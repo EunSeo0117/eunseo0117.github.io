@@ -5,7 +5,7 @@
     "url": "/blog/posts/2025-05-10-gc/",
     "categories": "",
     "tags": "",
-    "date": "2025-09-30 23:15:40 +0900",
+    "date": "2025-10-03 23:51:51 +0900",
     "content": "gc에 대한 개념, jvm개념 공부 "
   },
   
@@ -33,7 +33,7 @@
     "categories": "database",
     "tags": "database",
     "date": "2025-08-03 10:00:00 +0900",
-    "content": " "
+    "content": "데이베이스 설계방법 pk전략, signed, unsigned차이 "
   },
   
   {
